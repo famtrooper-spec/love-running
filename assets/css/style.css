@@ -21,7 +21,7 @@ header{
 main{ 
     background-color: lightblue;
    /* Make main take up any surplus space and push footer to the bottom */
-    flex: 1 0 auto;
+    flex:1 0 auto;
 }
 /*Footer*/
 footer{ 
