@@ -31,10 +31,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    
 }
 header a {
     text-decoration: none;
     color: inherit;
+    
 }
 
 h1 { 
@@ -85,9 +87,11 @@ main {
     margin-top:47px;
      /* Hero section*/
      #hero {
-        height: 600px;
+        height: 100vh;
         width: 100%;
-        background-color: lightgreen;
+        background: url('../images/hero-image.webp') no-repeat center center/cover;
+       
+      
      }
 }
 /*Footer*/
@@ -112,6 +116,7 @@ main {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
+        height:auto;
     }
     #menu {
         display:flex;
@@ -122,6 +127,9 @@ main {
     /* Hide nav toggle */
     .nav-toggle-label {
         display: none;
+    }
+    #hero {
+        height:768px;
     }
 }
 
