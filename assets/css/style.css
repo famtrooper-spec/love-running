@@ -165,7 +165,32 @@ main {
     align-items: center;
     justify-content: center;
 }
+#city-background {
+    
+    height:50%;
+    width:50%;
+    margin-bottom:20px;
+    
+}
+#times {
+    background:url('../images/dublin-city.webp') no-repeat center/cover;
+    /*handles responsiveness without media query*/
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+#times div {
+    color: #fafafa;
+    background-color: rgba(0,0,0, .6);
+    padding:15px;
+    text-align:center;
+}
 
+#times h3 {
+   /*overides the color applied in general styles*/
+    color:#fafafa;
+
+}
 /* Media queries: tablets and larger(768px and up)*/
 @media (min-width:768px) {
     /* Header*/
