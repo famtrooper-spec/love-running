@@ -235,6 +235,8 @@ main {
     color:#ffffff;
     background-color: rgba(60,60,60,0.6);
     padding: 30px;
+    
+   
 }
 .text-input {
     background: transparent;
@@ -321,16 +323,17 @@ main {
 
 /* Sign up*/
 
-    #signup {
+    #sign-up {
         background-position: center;
         position: relative;
+        
     }
 
     #signup-form {
         max-width: 400px;
-        position:absolute ;
         left: 10%;
-        top: 110px;
+        top: 150px;
+        
     }
 
     .text-input:hover {
