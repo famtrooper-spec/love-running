@@ -212,6 +212,8 @@ main {
     color:#fafafa;
 
 }
+/*Sign up*/
+
 /* Media query: large or landscape phones (576px and up) */
 @media (min-width: 576px) {
     #photos {
