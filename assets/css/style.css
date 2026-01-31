@@ -228,11 +228,13 @@ main {
 #signup-form> h2 {
     color:#fafafa;
     margin-bottom: 30px;
+    
 }
 #signup-form {
     color:#ffffff;
     background-color: rgba(60,60,60,0.6);
     padding: 30px;
+    margin-top:150px;
     
    
 }
