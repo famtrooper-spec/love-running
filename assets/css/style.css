@@ -92,7 +92,7 @@ main {
  /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
-    
+}
     /* Hero section*/
     
 
@@ -102,7 +102,7 @@ main {
     background: url("../images/hero-image.webp") no-repeat center center/cover;
     position: relative;
 }
-}
+
 /*Gallery page*/
 #photos img {
     width: 100%;
